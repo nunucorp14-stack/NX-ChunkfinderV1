@@ -8,7 +8,7 @@ group = 'com.donutsmp.addon'
 
 repositories {
     mavenCentral()
-    maven { url 'https://maven.meteordevelopment.dev/releases' }
+    maven { url = 'https://maven.meteordevelopment.dev/releases' }
 }
 
 dependencies {
