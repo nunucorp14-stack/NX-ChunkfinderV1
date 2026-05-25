@@ -6,6 +6,11 @@ plugins {
 version = '1.0.1'
 group = 'com.donutsmp.addon'
 
+repositories {
+    mavenCentral()
+    maven { url 'https://maven.meteordevelopment.dev/releases' }
+}
+
 dependencies {
     minecraft "com.mojang:minecraft:1.21.5"
     mappings "org.quiltmc:quilt-mappings:1.21.5+build.1"
